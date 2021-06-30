@@ -7,12 +7,15 @@
 body {
     font-family: 'Merriweather', serif;
 }
+hr{
+    margin: 2rem 0rem;
 
+}
 /* container */
 .container {
   
     padding: 0rem 1rem;
-}s
+}
  .container-centre {
 
      max-width: 600px;
@@ -30,11 +33,21 @@ body {
     color: white;
 }
 .link-secondary{
-    color var(--primary-color);
+    color: var(--primary-color);
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
 }
 /* ben convention in css */
+/* lists */
+
+.list-non-bullet{
+    list-style: none;
+}
+.list-item-inline{
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
 
 
 
