@@ -15,13 +15,15 @@ hr {
 
 }
 
+
+
 /* container */
 .container {
 
     padding: 0rem 1rem;
 }
 
-.container-centre {
+.container-center {
 
     max-width: 600px;
     margin: auto;
@@ -94,6 +96,7 @@ hr {
     .hero {
         padding: 2rem;
         text-align: center;
+        padding-top: 5rem;
     }
 
     .hero .hero-img {
@@ -117,7 +120,7 @@ hr {
 
     /* section */
     .section {
-        padding: 10rem;
+        padding: 4rem;
     }
 
     .section {
