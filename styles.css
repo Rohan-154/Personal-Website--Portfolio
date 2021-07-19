@@ -93,6 +93,7 @@ hr {
 
     .navigation .link {
         color: white;
+
         
     }
 
@@ -161,6 +162,7 @@ hr {
     }
     .fa-twitter-square {
         color: white;
+       
     
     
     }
@@ -173,11 +175,8 @@ hr {
     }
     .fa-linkedin{
         color: white;
+        padding-right: 3.7rem;
     }
-    .span{
-        color: #1F2937;
-        font-size: large;
-        font-weight: bold;
-    }
-  
+    
+     
       
