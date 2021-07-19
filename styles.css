@@ -8,6 +8,7 @@
 
 body {
     font-family: 'Merriweather', serif;
+    margin: 0rem;
 }
 
 hr {
@@ -27,6 +28,7 @@ hr {
 
     max-width: 600px;
     margin: auto;
+    text-align: center;
 
 }
 
@@ -35,6 +37,8 @@ hr {
     box-sizing: border-box;
     text-decoration: none;
     padding: 0.5rem 1rem;
+   
+    
     /* margin-top: 1rem;
     margin-bottom: 1rem; */
 
@@ -63,6 +67,7 @@ hr {
     .list-item-inline {
         display: inline;
         padding: 0rem 0.5rem;
+        
        
     }
 
@@ -91,15 +96,17 @@ hr {
         
     }
 
-    .navigation .link-active {
+    .navigation  .link-active {
         font-weight: bold;
+        background-color:#111827;
+       
     }
 
     /* header */
     .hero {
         padding: 2rem;
         text-align: center;
-        padding-top: 5rem;
+        padding-top: 3rem;
     }
 
     .hero .hero-img {
@@ -142,6 +149,7 @@ hr {
         color: white;
         border-top-right-radius: 1rem;
 
+
     }
 
     .footer .link {
@@ -151,5 +159,25 @@ hr {
         font-weight: bold;
         font-size: large;
     }
+    .fa-twitter-square {
+        color: white;
+    
+    
+    }
+    
+    .fa-github-square {
+    
+        color: white;
+    
+    
+    }
+    .fa-linkedin{
+        color: white;
+    }
+    .span{
+        color: #1F2937;
+        font-size: large;
+        font-weight: bold;
+    }
   
-        
+      
