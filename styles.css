@@ -28,6 +28,7 @@ hr {
 
     max-width: 600px;
     margin: auto;
+    padding-bottom: 3rem;
    
 
 }
@@ -71,6 +72,7 @@ hr {
 
     .list-non-bullet {
         list-style: none;
+        
     }
 
     .list-item-inline {
