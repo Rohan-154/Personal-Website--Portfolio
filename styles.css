@@ -16,8 +16,6 @@ hr {
 
 }
 
-
-
 /* container */
 .container {
 
@@ -29,7 +27,7 @@ hr {
     max-width: 600px;
     margin: auto;
     padding-bottom: 3rem;
-   
+
 
 }
 
@@ -38,8 +36,8 @@ hr {
     box-sizing: border-box;
     text-decoration: none;
     padding: 0.5rem 1rem;
-   
-    
+
+
     /* margin-top: 1rem;
     margin-bottom: 1rem; */
 
@@ -50,158 +48,159 @@ hr {
     border-radius: 0.5rem;
     color: white;
 }
-.link-primary:hover{
+
+.link-primary:hover {
     color: var(--primary-color);
     background-color: white;
 }
 
 
 
-    .link-secondary {
-        color: var(--primary-color);
-        border-radius: 0.5rem;
-        border: 1px solid var(--primary-color);
-    }
-    .link-secondary:hover{
-        color: white;
-        background-color: var(--primary-color);
-    }
+.link-secondary {
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+}
 
-    /* ben convention in css */
-    /* lists */
+.link-secondary:hover {
+    color: white;
+    background-color: var(--primary-color);
+}
 
-    .list-non-bullet {
-        list-style: none;
-        
-    }
+/* ben convention in css */
+/* lists */
 
-    .list-item-inline {
-        display: inline;
-        padding: 0rem 0.5rem;
-        
-       
-    }
+.list-non-bullet {
+    list-style: none;
 
-    /* navigation */
-    .navigation {
-        background-color: var(--primary-color);
-        color: white;
-        padding: 1rem;
-        border-bottom-left-radius: 1rem;
+}
 
-    }
-
-    .navigation .nav-brand {
-        font-weight: bold;
-        font-size: 1.1rem;
-       
-    }
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
 
 
-    .navigation .nav-pills {
-        text-align: right;
-    }
+}
 
-    .navigation .link {
-        color: white;
+/* navigation */
+.navigation {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
 
-        
-    }
+}
 
-    .navigation  .link-active {
-        font-weight: bold;
-        background-color:#111827;
-       
-    }
+.navigation .nav-brand {
+    font-weight: bold;
+    font-size: 1.1rem;
 
-    /* header */
-    .hero {
-        padding: 2rem;
-        text-align: center;
-        padding-top: 3rem;
+}
+
+
+.navigation .nav-pills {
+    text-align: right;
+}
+
+.navigation .link {
+    color: white;
+
+
+}
+
+.navigation .link-active {
+    font-weight: bold;
+    background-color: #111827;
+
+}
+
+/* header */
+.hero {
+    padding: 2rem;
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.hero .hero-img {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading {
+    padding-top: 1rem;
+    color: var(--dark-gray);
+    text-align: center;
+
+
+
+}
+
+.hero .hero-heading .heading-inverted {
+    color: var(--primary-color);
+}
+
+/* section */
+.section {
+    padding: 4rem;
+}
+
+.section {
+    text-align: center
+}
+
+.ow {
+    background-color: var(--off-white);
+}
+
+/* footer */
+.footer {
+    background-color: #374151;
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+
+
+}
+
+.footer .link {
+    color: white;
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
+}
+
+.fa-twitter-square {
+    color: #00acee;
+
+
+}
+
+.fa-github-square {
+
+    color: #211F1F;
+
+
+}
+
+.fa-linkedin {
+    color: #0077b5;
+}
+
+@media screen and (min-width:360px) {
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
     }
 
     .hero .hero-img {
-        max-width: 350px;
-        display: block;
-        margin: auto;
+        max-width: 300px;
     }
 
-    .hero .hero-heading {
-        padding-top: 1rem;
-        color: var(--dark-gray);
-        text-align: center;
-
-
-
-    }
-
-    .hero .hero-heading .heading-inverted {
-        color: var(--primary-color);
-    }
-
-    /* section */
-    .section {
-        padding: 4rem;
-    }
-
-    .section {
-        text-align: center
-    }
-
-    .ow {
-        background-color: var(--off-white);
-    }
-
-    /* footer */
-    .footer {
-        background-color:#374151;
-        padding: 2rem 1rem;
-        text-align: center;
-        color: white;
-        border-top-right-radius: 1rem;
-
-
-    }
-
-    .footer .link {
-        color: white;
-    }
-    .footer .footer-header{
-        font-weight: bold;
-        font-size: large;
-    }
-    .fa-twitter-square {
-        color: #00acee;
-    
-    
-    }
-    
-    .fa-github-square {
-    
-        color: #211F1F;
-    
-    
-    }
-    .fa-linkedin{
-        color: #0077b5;
-    }
-    @media screen and (min-width:360px){
-        ul{
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            margin-top: 1rem;
-            margin-bottom: 1rem;
-          }
-          .hero .hero-img{
-              max-width: 300px;
-          }
-
-        }
-
-    
-
-  
-    
-      
+}
